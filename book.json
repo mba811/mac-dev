@@ -1,24 +1,11 @@
 {
-
-    "title": "Mac OS X Dev Setup Guide ",
-
+    "plugins": [
+        "autocover"
+    ],
     "links": {
-        "home": "https://github.com/mba811/Mac-dev",
-        "about": "http://site.11ten.net/",
-        "issues": null,
-        "contribute": null
-    },
-
-    "pdf": {
-        "toc": true,
-        "pageNumbers": false,
-        "fontSize": 12,
-        "paperSize": "a4",
-        "margin": {
-            "right": 62,
-            "left": 62,
-            "top": 36,
-            "bottom": 36
+        "sidebar": {
+            "Contact us": "mailto:ztd811@gmail.com"
         }
-    }
+    },
+    "pluginsConfig": {}
 }
