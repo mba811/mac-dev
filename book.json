@@ -30,7 +30,9 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": [],
+    "plugins": [
+            "maxiang"
+        ],
     "title": "Sample GitBook",
     "variables": {}
 }

@@ -6,7 +6,8 @@
 
 安装 Homebrew-cask 是如此的简单直接，运行以下命令即可完成：
 
-    $ brew install caskroom/cask/brew-cask
+    $ brew tap phinze/homebrew-cask
+    $ brew install brew-cask
     $ brew cask install google-chrome // 安装 Google 浏览器
     $ brew update && brew upgrade brew-cask && brew cleanup // 更新
 
