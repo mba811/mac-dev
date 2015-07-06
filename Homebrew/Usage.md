@@ -29,3 +29,11 @@ Homebrew 将会把老版本的包缓存下来，以便当你想回滚至旧版�
 如果你不喜欢命令行方式来管理，那么 Cakebrew 是极好的选择。Cakebrew App 提供了可视化的界面来接管一部分 brew 命令，大多数操作都可以直接在界面上点几下来完成。
 
 [下载地址](https://www.cakebrew.com/)
+
+####安装开发常用的包
+
+    brew install wget watch tmux cmake openssl imagemagick graphicsmagick gearman geoip readline autoconf multitail source-highlight autojump zsh-completions sshfs
+
+####升级一下系统自带的vim
+
+    brew install ctags macvim --env-std --override-system-vim
