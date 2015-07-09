@@ -1,0 +1,458 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/lib/node_modules/cnpm/node_modules/.bin/npm',
+1 verbose cli   '--userconfig=/Users/ZH/.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--cache=/Users/ZH/.cnpm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   '--node-gyp=/usr/local/lib/node_modules/cnpm/node_modules/pangyp/bin/node-gyp.js',
+1 verbose cli   'install',
+1 verbose cli   'canvas' ]
+2 info using npm@2.7.6
+3 info using node@v0.12.6
+4 verbose node symlink /usr/local/opt/nvm/versions/node/v0.12.6/bin/node
+5 verbose config Skipping project config: /Users/ZH/.npmrc. (matches userconfig)
+6 verbose install initial load of /Users/ZH/package.json
+7 verbose installManyTop reading scoped package data from /Users/ZH/node_modules/canvas/package.json
+8 verbose installManyTop reading scoped package data from /Users/ZH/node_modules/easyimage/package.json
+9 verbose installManyTop reading scoped package data from /Users/ZH/node_modules/gitbook-parsers/package.json
+10 verbose installManyTop reading scoped package data from /Users/ZH/node_modules/gitbook-plugin/package.json
+11 verbose installManyTop reading scoped package data from /Users/ZH/node_modules/gitbook-theme-maxiang/package.json
+12 warn package.json gitbook-theme-maxiang@0.0.3 No repository field.
+13 verbose readDependencies loading dependencies from /Users/ZH/package.json
+14 verbose install canvas is installed as 1.2.3
+15 silly cache add args [ 'canvas', null ]
+16 verbose cache add spec canvas
+17 silly cache add parsed spec { raw: 'canvas',
+17 silly cache add   scope: null,
+17 silly cache add   name: 'canvas',
+17 silly cache add   rawSpec: '',
+17 silly cache add   spec: '*',
+17 silly cache add   type: 'range' }
+18 silly addNamed canvas@*
+19 verbose addNamed "*" is a valid semver range for canvas
+20 silly addNameRange { name: 'canvas', range: '*', hasData: false }
+21 silly mapToRegistry name canvas
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npm.taobao.org/
+24 silly mapToRegistry uri https://registry.npm.taobao.org/canvas
+25 verbose addNameRange registry:https://registry.npm.taobao.org/canvas not in flight; fetching
+26 verbose request uri https://registry.npm.taobao.org/canvas
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 22:58:50
+29 verbose request id 4794f1db1caceaa0
+30 verbose etag "1432274824000"
+31 http request GET https://registry.npm.taobao.org/canvas
+32 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npm.taobao.org
+33 info attempt registry request try #2 at 22:59:04
+34 verbose etag "1432274824000"
+35 http request GET https://registry.npm.taobao.org/canvas
+36 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npm.taobao.org
+37 info attempt registry request try #3 at 23:00:04
+38 verbose etag "1432274824000"
+39 http request GET https://registry.npm.taobao.org/canvas
+40 silly get cb [ 304, undefined ]
+41 verbose etag https://registry.npm.taobao.org/canvas from cache
+42 verbose get saving canvas to /Users/ZH/.cnpm/registry.npm.taobao.org/canvas/.cache.json
+43 silly addNameRange number 2 { name: 'canvas', range: '*', hasData: true }
+44 silly addNameRange versions [ 'canvas',
+44 silly addNameRange   [ '1.2.3',
+44 silly addNameRange     '1.2.2',
+44 silly addNameRange     '1.2.1',
+44 silly addNameRange     '1.2.0',
+44 silly addNameRange     '1.1.6',
+44 silly addNameRange     '1.1.5',
+44 silly addNameRange     '1.1.4',
+44 silly addNameRange     '1.1.3',
+44 silly addNameRange     '1.1.2',
+44 silly addNameRange     '1.1.1',
+44 silly addNameRange     '1.1.0',
+44 silly addNameRange     '1.0.4',
+44 silly addNameRange     '1.0.3',
+44 silly addNameRange     '1.0.2',
+44 silly addNameRange     '1.0.1',
+44 silly addNameRange     '1.0.0',
+44 silly addNameRange     '0.13.1',
+44 silly addNameRange     '0.13.0',
+44 silly addNameRange     '0.12.1',
+44 silly addNameRange     '0.12.0',
+44 silly addNameRange     '0.11.3',
+44 silly addNameRange     '0.11.2',
+44 silly addNameRange     '0.11.1',
+44 silly addNameRange     '0.11.0',
+44 silly addNameRange     '0.10.3',
+44 silly addNameRange     '0.10.2',
+44 silly addNameRange     '0.10.1',
+44 silly addNameRange     '0.10.0',
+44 silly addNameRange     '0.9.0',
+44 silly addNameRange     '0.8.3',
+44 silly addNameRange     '0.8.2',
+44 silly addNameRange     '0.8.1',
+44 silly addNameRange     '0.8.0',
+44 silly addNameRange     '0.7.3',
+44 silly addNameRange     '0.7.2',
+44 silly addNameRange     '0.7.1',
+44 silly addNameRange     '0.7.0',
+44 silly addNameRange     '0.6.0',
+44 silly addNameRange     '0.5.4',
+44 silly addNameRange     '0.5.3',
+44 silly addNameRange     '0.5.2',
+44 silly addNameRange     '0.5.1',
+44 silly addNameRange     '0.5.0',
+44 silly addNameRange     '0.4.3',
+44 silly addNameRange     '0.4.2',
+44 silly addNameRange     '0.2.0',
+44 silly addNameRange     '0.4.1',
+44 silly addNameRange     '0.4.0',
+44 silly addNameRange     '0.0.8',
+44 silly addNameRange     '0.3.2',
+44 silly addNameRange     '0.3.1',
+44 silly addNameRange     '0.3.0',
+44 silly addNameRange     '0.2.1',
+44 silly addNameRange     '0.3.3',
+44 silly addNameRange     '0.1.0',
+44 silly addNameRange     '0.0.2',
+44 silly addNameRange     '0.0.3',
+44 silly addNameRange     '0.0.7',
+44 silly addNameRange     '0.0.6',
+44 silly addNameRange     '0.0.5',
+44 silly addNameRange     '0.0.4',
+44 silly addNameRange     '0.0.1' ] ]
+45 silly addNamed canvas@1.2.3
+46 verbose addNamed "1.2.3" is a plain semver version for canvas
+47 silly cache afterAdd canvas@1.2.3
+48 verbose afterAdd /Users/ZH/.cnpm/canvas/1.2.3/package/package.json not in flight; writing
+49 verbose afterAdd /Users/ZH/.cnpm/canvas/1.2.3/package/package.json written
+50 silly install resolved [ { name: 'canvas',
+50 silly install resolved     description: 'Canvas graphics API backed by Cairo',
+50 silly install resolved     version: '1.2.3',
+50 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+50 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+50 silly install resolved     keywords:
+50 silly install resolved      [ 'canvas',
+50 silly install resolved        'graphic',
+50 silly install resolved        'graphics',
+50 silly install resolved        'pixman',
+50 silly install resolved        'cairo',
+50 silly install resolved        'image',
+50 silly install resolved        'images',
+50 silly install resolved        'pdf' ],
+50 silly install resolved     homepage: 'https://github.com/learnboost/node-canvas',
+50 silly install resolved     repository:
+50 silly install resolved      { type: 'git',
+50 silly install resolved        url: 'git://github.com/learnboost/node-canvas.git' },
+50 silly install resolved     scripts: { test: 'make test', install: 'node-gyp rebuild' },
+50 silly install resolved     dependencies: { nan: '^1.8.4' },
+50 silly install resolved     devDependencies: { express: '3.0', jade: '0.28.1', mocha: '*', should: '*' },
+50 silly install resolved     engines: { node: '>= 0.6.0' },
+50 silly install resolved     main: './lib/canvas.js',
+50 silly install resolved     license: 'MIT',
+50 silly install resolved     gypfile: true,
+50 silly install resolved     gitHead: 'a7c9c0ddb556d8a5c5f683e9f41075ad9cda94e8',
+50 silly install resolved     bugs: { url: 'https://github.com/learnboost/node-canvas/issues' },
+50 silly install resolved     _id: 'canvas@1.2.3',
+50 silly install resolved     _shasum: 'bf4124cc360854a67486211120106cdd69744a58',
+50 silly install resolved     _from: 'canvas@*',
+50 silly install resolved     _npmVersion: '2.9.1',
+50 silly install resolved     _nodeVersion: '0.12.3',
+50 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+50 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: 'bf4124cc360854a67486211120106cdd69744a58',
+50 silly install resolved        size: 51456,
+50 silly install resolved        noattachment: false,
+50 silly install resolved        tarball: 'http://registry.npm.taobao.org/canvas/download/canvas-1.2.3.tgz' },
+50 silly install resolved     directories: {},
+50 silly install resolved     publish_time: 1432271414449,
+50 silly install resolved     _cnpm_publish_time: 1432271414449,
+50 silly install resolved     _resolved: 'https://registry.npm.taobao.org/canvas/download/canvas-1.2.3.tgz',
+50 silly install resolved     readme: 'ERROR: No README data found!' } ]
+51 info install canvas@1.2.3 into /Users/ZH
+52 info installOne canvas@1.2.3
+53 verbose installOne of canvas to /Users/ZH not in flight; installing
+54 verbose lock using /Users/ZH/.cnpm/_locks/canvas-fbb3912315dc5337.lock for /Users/ZH/node_modules/canvas
+55 silly install write writing canvas 1.2.3 to /Users/ZH/node_modules/canvas
+56 verbose unbuild node_modules/canvas
+57 info preuninstall canvas@1.2.3
+58 info uninstall canvas@1.2.3
+59 verbose unbuild rmStuff canvas@1.2.3 from /Users/ZH/node_modules
+60 info postuninstall canvas@1.2.3
+61 silly gentlyRm /Users/ZH/node_modules/canvas is being purged from base /Users/ZH
+62 verbose gentlyRm don't care about contents; nuking /Users/ZH/node_modules/canvas
+63 silly vacuum-fs purging /Users/ZH/node_modules/canvas
+64 silly vacuum-fs quitting because other entries in /Users/ZH/node_modules
+65 verbose tar unpack /Users/ZH/.cnpm/canvas/1.2.3/package.tgz
+66 verbose tar unpacking to /Users/ZH/node_modules/canvas
+67 silly gentlyRm /Users/ZH/node_modules/canvas is being purged
+68 verbose gentlyRm don't care about contents; nuking /Users/ZH/node_modules/canvas
+69 silly gunzTarPerm modes [ '755', '644' ]
+70 silly gunzTarPerm extractEntry package.json
+71 silly gunzTarPerm extractEntry .npmignore
+72 silly gunzTarPerm extractEntry index.js
+73 silly gunzTarPerm extractEntry History.md
+74 silly gunzTarPerm extractEntry Makefile
+75 silly gunzTarPerm extractEntry Readme.md
+76 silly gunzTarPerm extractEntry binding.gyp
+77 silly gunzTarPerm extractEntry .gitmodules
+78 silly gunzTarPerm extractEntry install
+79 silly gunzTarPerm extractEntry lib/bindings.js
+80 silly gunzTarPerm extractEntry lib/canvas.js
+81 silly gunzTarPerm extractEntry lib/context2d.js
+82 silly gunzTarPerm extractEntry lib/image.js
+83 silly gunzTarPerm extractEntry lib/jpegstream.js
+84 silly gunzTarPerm extractEntry lib/pixelarray.js
+85 silly gunzTarPerm extractEntry lib/pngstream.js
+86 silly gunzTarPerm extractEntry .travis.yml
+87 silly gunzTarPerm extractEntry src/Image.h
+88 silly gunzTarPerm extractEntry src/Canvas.cc
+89 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+90 silly gunzTarPerm extractEntry src/CanvasGradient.h
+91 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+92 silly gunzTarPerm extractEntry src/CanvasPattern.h
+93 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+94 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+95 silly gunzTarPerm extractEntry src/FontFace.cc
+96 silly gunzTarPerm extractEntry src/FontFace.h
+97 silly gunzTarPerm extractEntry src/Image.cc
+98 silly gunzTarPerm extractEntry src/Canvas.h
+99 silly gunzTarPerm extractEntry src/ImageData.cc
+100 silly gunzTarPerm extractEntry src/ImageData.h
+101 silly gunzTarPerm extractEntry src/JPEGStream.h
+102 silly gunzTarPerm extractEntry src/PNG.h
+103 silly gunzTarPerm extractEntry src/PixelArray.cc
+104 silly gunzTarPerm extractEntry src/PixelArray.h
+105 silly gunzTarPerm extractEntry src/Point.h
+106 silly gunzTarPerm extractEntry src/closure.h
+107 silly gunzTarPerm extractEntry src/color.cc
+108 silly gunzTarPerm extractEntry src/color.h
+109 silly gunzTarPerm extractEntry src/init.cc
+110 silly gunzTarPerm extractEntry util/cairo_include.sh
+111 silly gunzTarPerm extractEntry util/has_cairo_freetype.sh
+112 silly gunzTarPerm extractEntry util/has_lib.sh
+113 silly gunzTarPerm extractEntry util/lib_lookup.sh
+114 verbose write writing to /Users/ZH/node_modules/canvas/package.json
+115 info preinstall canvas@1.2.3
+116 verbose readDependencies loading dependencies from /Users/ZH/node_modules/canvas/package.json
+117 silly prepareForInstallMany adding nan@^1.8.4 from canvas dependencies
+118 verbose readDependencies loading dependencies from /Users/ZH/node_modules/canvas/package.json
+119 silly cache add args [ 'nan@^1.8.4', null ]
+120 verbose cache add spec nan@^1.8.4
+121 silly cache add parsed spec { raw: 'nan@^1.8.4',
+121 silly cache add   scope: null,
+121 silly cache add   name: 'nan',
+121 silly cache add   rawSpec: '^1.8.4',
+121 silly cache add   spec: '>=1.8.4 <2.0.0',
+121 silly cache add   type: 'range' }
+122 silly addNamed nan@>=1.8.4 <2.0.0
+123 verbose addNamed ">=1.8.4 <2.0.0" is a valid semver range for nan
+124 silly addNameRange { name: 'nan', range: '>=1.8.4 <2.0.0', hasData: false }
+125 silly mapToRegistry name nan
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npm.taobao.org/
+128 silly mapToRegistry uri https://registry.npm.taobao.org/nan
+129 verbose addNameRange registry:https://registry.npm.taobao.org/nan not in flight; fetching
+130 verbose request uri https://registry.npm.taobao.org/nan
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 23:00:05
+133 verbose etag "1430060305000"
+134 http request GET https://registry.npm.taobao.org/nan
+135 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npm.taobao.org
+136 info attempt registry request try #2 at 23:00:15
+137 verbose etag "1430060305000"
+138 http request GET https://registry.npm.taobao.org/nan
+139 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npm.taobao.org
+140 info attempt registry request try #3 at 23:01:15
+141 verbose etag "1430060305000"
+142 http request GET https://registry.npm.taobao.org/nan
+143 silly get cb [ 304, undefined ]
+144 verbose etag https://registry.npm.taobao.org/nan from cache
+145 verbose get saving nan to /Users/ZH/.cnpm/registry.npm.taobao.org/nan/.cache.json
+146 silly addNameRange number 2 { name: 'nan', range: '>=1.8.4 <2.0.0', hasData: true }
+147 silly addNameRange versions [ 'nan',
+147 silly addNameRange   [ '1.8.4',
+147 silly addNameRange     '1.8.3',
+147 silly addNameRange     '1.8.2',
+147 silly addNameRange     '1.8.1',
+147 silly addNameRange     '1.8.0',
+147 silly addNameRange     '1.7.0',
+147 silly addNameRange     '1.6.2',
+147 silly addNameRange     '1.6.1',
+147 silly addNameRange     '1.5.3',
+147 silly addNameRange     '1.6.0',
+147 silly addNameRange     '1.5.2',
+147 silly addNameRange     '1.5.1',
+147 silly addNameRange     '1.4.3',
+147 silly addNameRange     '1.4.2',
+147 silly addNameRange     '1.5.0',
+147 silly addNameRange     '1.4.1',
+147 silly addNameRange     '1.4.0',
+147 silly addNameRange     '1.3.0',
+147 silly addNameRange     '1.2.0',
+147 silly addNameRange     '1.1.2',
+147 silly addNameRange     '1.1.1',
+147 silly addNameRange     '1.1.0',
+147 silly addNameRange     '1.0.0',
+147 silly addNameRange     '0.8.0',
+147 silly addNameRange     '0.7.1',
+147 silly addNameRange     '0.7.0',
+147 silly addNameRange     '0.6.0',
+147 silly addNameRange     '0.5.2',
+147 silly addNameRange     '0.5.1',
+147 silly addNameRange     '0.5.0',
+147 silly addNameRange     '0.4.4',
+147 silly addNameRange     '0.4.3',
+147 silly addNameRange     '0.4.2',
+147 silly addNameRange     '0.4.1',
+147 silly addNameRange     '0.4.0',
+147 silly addNameRange     '0.3.2',
+147 silly addNameRange     '0.3.1',
+147 silly addNameRange     '0.3.0',
+147 silly addNameRange     '0.3.0-wip2',
+147 silly addNameRange     '0.3.0-wip' ] ]
+148 silly addNamed nan@1.8.4
+149 verbose addNamed "1.8.4" is a plain semver version for nan
+150 silly cache afterAdd nan@1.8.4
+151 verbose afterAdd /Users/ZH/.cnpm/nan/1.8.4/package/package.json not in flight; writing
+152 verbose afterAdd /Users/ZH/.cnpm/nan/1.8.4/package/package.json written
+153 silly install resolved [ { name: 'nan',
+153 silly install resolved     version: '1.8.4',
+153 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+153 silly install resolved     main: 'include_dirs.js',
+153 silly install resolved     repository: { type: 'git', url: 'git://github.com/iojs/nan.git' },
+153 silly install resolved     scripts:
+153 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+153 silly install resolved        'rebuild-tests': 'pangyp rebuild --directory test' },
+153 silly install resolved     contributors:
+153 silly install resolved      [ [Object],
+153 silly install resolved        [Object],
+153 silly install resolved        [Object],
+153 silly install resolved        [Object],
+153 silly install resolved        [Object],
+153 silly install resolved        [Object],
+153 silly install resolved        [Object] ],
+153 silly install resolved     devDependencies:
+153 silly install resolved      { bindings: '~1.2.1',
+153 silly install resolved        'node-gyp': '~1.0.2',
+153 silly install resolved        pangyp: '~2.0.1',
+153 silly install resolved        tap: '~0.7.1',
+153 silly install resolved        xtend: '~4.0.0' },
+153 silly install resolved     license: 'MIT',
+153 silly install resolved     gitHead: 'ed3bbf4ced0cf7937b4e4164766797f71aa97f3d',
+153 silly install resolved     bugs: { url: 'https://github.com/iojs/nan/issues' },
+153 silly install resolved     homepage: 'https://github.com/iojs/nan#readme',
+153 silly install resolved     _id: 'nan@1.8.4',
+153 silly install resolved     _shasum: '3c76b5382eab33e44b758d2813ca9d92e9342f34',
+153 silly install resolved     _from: 'nan@>=1.8.4 <2.0.0',
+153 silly install resolved     _npmVersion: '2.8.3',
+153 silly install resolved     _nodeVersion: '0.12.2',
+153 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+153 silly install resolved     maintainers: [ [Object], [Object] ],
+153 silly install resolved     dist:
+153 silly install resolved      { shasum: '3c76b5382eab33e44b758d2813ca9d92e9342f34',
+153 silly install resolved        size: 37152,
+153 silly install resolved        noattachment: false,
+153 silly install resolved        tarball: 'http://registry.npm.taobao.org/nan/download/nan-1.8.4.tgz' },
+153 silly install resolved     directories: {},
+153 silly install resolved     publish_time: 1430058759821,
+153 silly install resolved     _cnpm_publish_time: 1430058759821,
+153 silly install resolved     _resolved: 'https://registry.npm.taobao.org/nan/download/nan-1.8.4.tgz',
+153 silly install resolved     readme: 'ERROR: No README data found!' } ]
+154 info install nan@1.8.4 into /Users/ZH/node_modules/canvas
+155 info installOne nan@1.8.4
+156 verbose installOne of nan to /Users/ZH/node_modules/canvas not in flight; installing
+157 verbose lock using /Users/ZH/.cnpm/_locks/nan-758ddda9d481ec35.lock for /Users/ZH/node_modules/canvas/node_modules/nan
+158 silly install write writing nan 1.8.4 to /Users/ZH/node_modules/canvas/node_modules/nan
+159 verbose unbuild node_modules/canvas/node_modules/nan
+160 silly gentlyRm /Users/ZH/node_modules/canvas/node_modules/nan is being purged from base /Users/ZH
+161 verbose gentlyRm don't care about contents; nuking /Users/ZH/node_modules/canvas/node_modules/nan
+162 verbose tar unpack /Users/ZH/.cnpm/nan/1.8.4/package.tgz
+163 verbose tar unpacking to /Users/ZH/node_modules/canvas/node_modules/nan
+164 silly gentlyRm /Users/ZH/node_modules/canvas/node_modules/nan is being purged
+165 verbose gentlyRm don't care about contents; nuking /Users/ZH/node_modules/canvas/node_modules/nan
+166 silly gunzTarPerm modes [ '755', '644' ]
+167 silly gunzTarPerm extractEntry package.json
+168 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+169 silly gunzTarPerm extractEntry README.md
+170 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+171 silly gunzTarPerm extractEntry include_dirs.js
+172 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+173 silly gunzTarPerm extractEntry LICENSE.md
+174 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+175 silly gunzTarPerm extractEntry .dntrc
+176 silly gunzTarPerm modified mode [ '.dntrc', 436, 420 ]
+177 silly gunzTarPerm extractEntry appveyor.yml
+178 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 420 ]
+179 silly gunzTarPerm extractEntry nan.h
+180 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+181 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+182 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+183 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+184 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+185 silly gunzTarPerm extractEntry nan_new.h
+186 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+187 silly gunzTarPerm extractEntry nan_string_bytes.h
+188 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+189 silly gunzTarPerm extractEntry CHANGELOG.md
+190 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+191 verbose write writing to /Users/ZH/node_modules/canvas/node_modules/nan/package.json
+192 info preinstall nan@1.8.4
+193 verbose readDependencies loading dependencies from /Users/ZH/node_modules/canvas/node_modules/nan/package.json
+194 verbose readDependencies loading dependencies from /Users/ZH/node_modules/canvas/node_modules/nan/package.json
+195 silly install resolved []
+196 verbose about to build /Users/ZH/node_modules/canvas/node_modules/nan
+197 info build /Users/ZH/node_modules/canvas/node_modules/nan
+198 info linkStuff nan@1.8.4
+199 silly linkStuff nan@1.8.4 has /Users/ZH/node_modules/canvas/node_modules as its parent node_modules
+200 verbose linkBins nan@1.8.4
+201 verbose linkMans nan@1.8.4
+202 verbose rebuildBundles nan@1.8.4
+203 info install nan@1.8.4
+204 info postinstall nan@1.8.4
+205 verbose unlock done using /Users/ZH/.cnpm/_locks/nan-758ddda9d481ec35.lock for /Users/ZH/node_modules/canvas/node_modules/nan
+206 verbose about to build /Users/ZH/node_modules/canvas
+207 info build /Users/ZH/node_modules/canvas
+208 info linkStuff canvas@1.2.3
+209 silly linkStuff canvas@1.2.3 has /Users/ZH/node_modules as its parent node_modules
+210 verbose linkBins canvas@1.2.3
+211 verbose linkMans canvas@1.2.3
+212 verbose rebuildBundles canvas@1.2.3
+213 verbose rebuildBundles [ 'nan' ]
+214 info install canvas@1.2.3
+215 verbose unsafe-perm in lifecycle false
+216 info canvas@1.2.3 Failed to exec install script
+217 verbose unlock done using /Users/ZH/.cnpm/_locks/canvas-fbb3912315dc5337.lock for /Users/ZH/node_modules/canvas
+218 verbose stack Error: canvas@1.2.3 install: `node-gyp rebuild`
+218 verbose stack Exit status 1
+218 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/cnpm/node_modules/npm/lib/utils/lifecycle.js:213:16)
+218 verbose stack     at EventEmitter.emit (events.js:110:17)
+218 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/cnpm/node_modules/npm/lib/utils/spawn.js:14:12)
+218 verbose stack     at ChildProcess.emit (events.js:110:17)
+218 verbose stack     at maybeClose (child_process.js:1015:16)
+218 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+219 verbose pkgid canvas@1.2.3
+220 verbose cwd /Users/ZH/project/books/mac-dev
+221 error Darwin 14.4.0
+222 error argv "node" "/usr/local/lib/node_modules/cnpm/node_modules/.bin/npm" "--userconfig=/Users/ZH/.cnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--cache=/Users/ZH/.cnpm" "--registry=https://registry.npm.taobao.org" "--node-gyp=/usr/local/lib/node_modules/cnpm/node_modules/pangyp/bin/node-gyp.js" "install" "canvas"
+223 error node v0.12.6
+224 error npm  v2.7.6
+225 error code ELIFECYCLE
+226 error canvas@1.2.3 install: `node-gyp rebuild`
+226 error Exit status 1
+227 error Failed at the canvas@1.2.3 install script 'node-gyp rebuild'.
+227 error This is most likely a problem with the canvas package,
+227 error not with npm itself.
+227 error Tell the author that this fails on your system:
+227 error     node-gyp rebuild
+227 error You can get their info via:
+227 error     npm owner ls canvas
+227 error There is likely additional logging output above.
+228 verbose exit [ 1, true ]
+229 verbose unbuild node_modules/canvas
+230 info preuninstall canvas@1.2.3
+231 info uninstall canvas@1.2.3
+232 verbose unbuild rmStuff canvas@1.2.3 from /Users/ZH/node_modules
+233 info postuninstall canvas@1.2.3
+234 silly gentlyRm /Users/ZH/node_modules/canvas is being purged from base /Users/ZH
+235 verbose gentlyRm don't care about contents; nuking /Users/ZH/node_modules/canvas
+236 silly vacuum-fs purging /Users/ZH/node_modules/canvas
+237 silly vacuum-fs quitting because other entries in /Users/ZH/node_modules
